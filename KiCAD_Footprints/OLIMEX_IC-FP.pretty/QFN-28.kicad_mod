@@ -1,4 +1,4 @@
-(module OLIMEX_IC-FP:QFN-28 (layer F.Cu) (tedit 55E44CCD)
+(module QFN-28 (layer F.Cu) (tedit 55E44CCD)
   (descr "ET PACKAGE, 28-PIN QFN WITH EXPOSED THERMAL PAD")
   (tags "ET PACKAGE, 28-PIN QFN WITH EXPOSED THERMAL PAD")
   (attr smd)

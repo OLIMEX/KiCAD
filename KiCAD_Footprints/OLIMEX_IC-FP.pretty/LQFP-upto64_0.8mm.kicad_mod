@@ -1,4 +1,4 @@
-(module kicad_wrk:LQFP-upto64_0.8mm (layer F.Cu) (tedit 55081D9F)
+(module LQFP-upto64_0.8mm (layer F.Cu) (tedit 55081D9F)
   (descr "LQFP64: plastic low profile quad flat package; 64 leads; body 14 x 14 x 1.4 mm(see NXP sot791-1_po.pdf and sot791-1_fr.pdf)")
   (tags "QFP 0.8")
   (attr smd)

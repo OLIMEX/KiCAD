@@ -1,9 +1,8 @@
-(module USB-MICRO-5P-F (layer F.Cu) (tedit 570CD8B0)
-  (attr smd)
-  (fp_text reference USB-OTG (at 0.032 -7.729) (layer F.SilkS)
+(module USB-MICRO-5P-F locked (layer F.Cu) (tedit 595C7B7E)
+  (fp_text reference USB1 (at 0.02 -2.57) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value USB_OTG (at 0 -8.45) (layer F.Fab)
+  (fp_text value USB-MINI (at 0 -8.45) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.7 -6.02) (end 3.7 -6.02) (layer F.Fab) (width 0.15))

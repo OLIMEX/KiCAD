@@ -1,6 +1,7 @@
-(module MSOP-10_Pitch-0.5mm_3.00x3.00x1.00mm (layer F.Cu) (tedit 57F3655F)
+(module MSOP-10_Pitch-0.5mm_3.00x3.00x1.00mm (layer F.Cu) (tedit 5928235B)
   (descr http://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf)
   (tags MSOP-8)
+  (attr smd)
   (fp_text reference REF* (at -2.5 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )

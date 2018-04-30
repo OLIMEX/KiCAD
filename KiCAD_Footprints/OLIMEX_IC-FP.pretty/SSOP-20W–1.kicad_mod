@@ -1,4 +1,4 @@
-(module SSOP-20W (layer F.Cu) (tedit 554B4DED)
+(module SSOP-20W–1 (layer F.Cu) (tedit 554B4DED)
   (descr "SSOP 20 pins")
   (tags "CMS SSOP SMD")
   (attr smd)

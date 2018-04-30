@@ -1,4 +1,4 @@
-(module OLIMEX_IC-FP:SOIC-8-EP (layer F.Cu) (tedit 56DE6DAD)
+(module SOIC-8-EP (layer F.Cu) (tedit 56DE6DAD)
   (descr SO-8)
   (tags SO-8)
   (attr smd)

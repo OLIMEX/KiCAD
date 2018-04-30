@@ -1,4 +1,4 @@
-(module TFC-WPAPR-08 (layer B.Cu) (tedit 56CC3CE7)
+(module TFC-WPAPR-08_BOTTOM (layer B.Cu) (tedit 56CC3CE7)
   (descr "OFFSET X-> -0.950MM")
   (tags "OFFSET X-> -0.950MM")
   (attr smd)

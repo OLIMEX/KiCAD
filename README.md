@@ -1,30 +1,26 @@
-# KiCAD
+# Olimex KiCAD components and footprints
 
-Olimex KiCAD components and footprints.
+## Why are these components and footprints not pushed to the official KiCAD repository? 
 
-Why they are not push to KiCAD repository? 
+These component and footprint libraries are not pushed to the official KiCAD repository as they are application-specific to our technology and assembly processes.
+For this reason, they cannot be considered generic or modular enough for everyone's needs.
 
-Because they are very specific to the technology and assembly process we use and can't be considered as perfect for everyone.
+In most cases, these components and footprints duplicate the components and packages already residing in the standard KiCAD library.
+We find these difficult to use, so we don't use them.
 
-In most of the cases they duplicate components and packages which are in standard KiCAD library, which we find hard to use.
+These component libraries are the ones we currently use when we design our products and just work fine for our processes.
+We continually update these libraries each time we optimize our production processes for better yield, so you can be confident that they are not static.
 
-These component libraries just work fine for our process and are continually updated, so these libraries are not static, each time we find new way to optimize our production process for better yield we update the libraries. 
+## Why are there no 3D drawings available for the components?
 
-These libraries are our current libraries we use when we design our products.
+Our developers are too busy (umhm... read lazy) to learn decent 3D CAD drawing skills and to add proper 3D CAD packages to these components.
+As a matter of fact, we are very poor at mechanics as well and never found good use of these nice 3D objects with KiCAD and therefore never used them.
+If anyone would like to contribute 3D drawings for these components, you are certainly welcome to do so! :)
 
-Why there are no 3D drawings for the components?
+# Warranty
 
-Our developers are too busy (umhm... read lazy) to learn decent 3D CAD drawing product and to add proper 3D cad packages to these components, in matter of fact we are very poor at mechanics and never found good use of these nice 3D generated objects with KiCAD and never used them, but if someone would like to contribute 3D drawings for these components is welcome :)
+THESE COMPONENT DEFINITIONS AND FOOTPRINTS ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
-# NO WARRANTY
+YOU ASSUME THE ENTIRE RISK FOR THE QUALITY AND PERFORMANCE OF THESE COMPONENT DEFINITIONS AND FOOTPRINTS.
 
-THEESE COMPONENT DEFINITIONS AND FOOTPRINTS ARE DISTRIBUTED IN THE HOPE THAT THEY WILL BE USEFUL, BUT WITHOUT ANY WARRANTY. 
-
-THEY ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
-THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COMPONENTS DEFINITIONS AND FOOTPRINTS IS WITH YOU.
-
-IN NO EVENT OLIMEX WILL BE LIABLE TO YOU FOR DAMAGES, LOSSES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THESE COMPONENTS DEFINITIONS AND FOOTPRINTS.
-
-
-
+IN NO EVENT WILL OLIMEX BE LIABLE FOR DAMAGES OR LOSSES THROUGH USE OF THIS MATERIAL, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES RESULTING FROM THE PROPER OR IMPROPER USE OF THESE COMPONENTS DEFINITIONS AND FOOTPRINTS.

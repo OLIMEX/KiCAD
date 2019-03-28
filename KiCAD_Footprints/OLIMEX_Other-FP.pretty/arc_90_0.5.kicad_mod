@@ -1,0 +1,14 @@
+(module arc_90_0.5 (layer F.Cu) (tedit 5C6E9962)
+  (fp_text reference REF** (at -0.05 6.65) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value arc_90_0.5 (at -0.15 -3.45) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd custom (at -0.5 0) (size 0.254 0.254) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_arc (start 0.5 0) (end 0 0) (angle -90) (width 0.254))
+    ))
+)

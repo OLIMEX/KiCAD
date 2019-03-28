@@ -1,0 +1,12 @@
+(module Mounting_hole_3.3mm_with_6mm_pad_no_inner_pads (layer F.Cu) (tedit 588A0104)
+  (fp_text reference Mounting_hole** (at -0.45 6.05) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Mounting_hole_3.3mm_with_6mm_pad_no_inner_pads (at -0.2 7.8) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 0 thru_hole circle (at 0 0) (size 6 6) (drill 3.3) (layers B.Cu B.Mask)
+    (clearance 0.45))
+  (pad 0 thru_hole circle (at 0 0) (size 6 6) (drill 3.3) (layers F.Cu F.Mask)
+    (clearance 0.45))
+)

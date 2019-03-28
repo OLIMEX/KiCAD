@@ -1,4 +1,4 @@
-(module MICRO_USB_5P-F_TYPE_DIP (layer F.Cu) (tedit 58E5DC0A)
+(module MICRO_USB_5P-F_TYPE_DIP (layer F.Cu) (tedit 5C6FF262)
   (descr "THIS PACKAGE IS CREATED BY NIKOLAY ACORDING TO MISB-SWMM-5AB-LF.PDF")
   (tags "THIS PACKAGE IS CREATED BY NIKOLAY ACORDING TO MISB-SWMM-5AB-LF.PDF")
   (attr smd)
@@ -61,4 +61,9 @@
     (solder_mask_margin 0.0508))
   (pad dril thru_hole circle (at -1.29 2 180) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508))
+  (model ${KISYS3DMOD}/629105150521.stp
+    (offset (xyz -2 0 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

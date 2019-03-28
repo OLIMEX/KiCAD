@@ -1,4 +1,4 @@
-(module Q_49U3HMS locked (layer F.Cu) (tedit 5A211764)
+(module Q_49U3HMS locked (layer F.Cu) (tedit 5BD95B39)
   (attr smd)
   (fp_text reference Q3 (at 4.826 3.556 180) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
@@ -26,7 +26,7 @@
     (solder_mask_margin 0.0508) (clearance 0.0508))
   (pad 1 smd rect (at -4.699 0) (size 4.826 1.1) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (clearance 0.0508))
-  (model Crystals_Oscillators_SMD.3dshapes/Q_49U3HMS.wrl
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/User_Library-Crystal_HC49_US-SM.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

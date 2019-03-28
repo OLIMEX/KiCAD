@@ -1,4 +1,4 @@
-(module LQFP48 (layer F.Cu) (tedit 5645CFCB)
+(module LQFP48 (layer F.Cu) (tedit 5BD99D49)
   (descr "LQFP48 - 48 PIN LOW-PROFILE QUAD FLAT PACKAGE")
   (tags "LQFP48 - 48 PIN LOW-PROFILE QUAD FLAT PACKAGE")
   (attr smd)
@@ -114,4 +114,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin -0.01))
   (pad 48 smd rect (at -4.3 2.75) (size 1.4 0.254) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin -0.01))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/LQFP48-7x7-0_50.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

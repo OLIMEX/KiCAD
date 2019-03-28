@@ -1,4 +1,4 @@
-(module CSP1.56x1.96-20_Pitch_0.40mm (layer F.Cu) (tedit 5808BE6F)
+(module CSP1.56x1.96-20_Pitch_0.40mm (layer F.Cu) (tedit 5BD99B0F)
   (descr http://www.t-firefly.com/download/firefly-rk3288/hardware/AN_SYR827%20SYR828%20for%20Rockchip.pdf)
   (fp_text reference U* (at 0 -2.159) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
@@ -64,4 +64,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin 0.0055))
   (pad A1 smd circle (at -0.6 -0.8) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin 0.0055))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/CSPBGA_49_5X5_0,65.step
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3 0.4 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module CPOL-RM3.5mm_8.0x11.5mm_SMD (layer F.Cu) (tedit 5AE1CF98)
+(module CPOL-RM3.5mm_8.0x11.5mm_SMD (layer F.Cu) (tedit 5C6BEE28)
   (fp_text reference C* (at 0 2.5) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
@@ -33,4 +33,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin 0.1))
   (pad 2 smd rect (at 1.75 0) (size 1.5 3) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin 0.1))
+  (model ${KISYS3DMOD}/ELECTROLITIC_CAPACITOR_RADIAL_8X12.step
+    (offset (xyz 0 2 5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

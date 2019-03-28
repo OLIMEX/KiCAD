@@ -1,4 +1,4 @@
-(module BGA_8x8mm_81p_0.8 (layer F.Cu) (tedit 57889868)
+(module BGA_8x8mm_81p_0.8 (layer F.Cu) (tedit 5BD999C9)
   (fp_text reference REF** (at 0 5.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -188,4 +188,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin 0.02))
   (pad J9 smd circle (at 3.2 3.2) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin 0.02))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/bga-81-2.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1.1 1.1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

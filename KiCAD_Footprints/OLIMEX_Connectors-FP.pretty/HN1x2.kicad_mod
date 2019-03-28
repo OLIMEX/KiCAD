@@ -1,4 +1,4 @@
-(module HN1x2 (layer F.Cu) (tedit 58393B86)
+(module HN1x2 (layer F.Cu) (tedit 5C8A47B6)
   (solder_mask_margin 0.0508)
   (solder_paste_margin -0.0508)
   (attr smd)
@@ -26,4 +26,9 @@
   (fp_line (start -2.54 -1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.254))
   (pad 1 thru_hole rect (at -1.27 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/HN1x2-PinHeader_1x02_P2.54mm_Vertical.step
+    (offset (xyz 1.27 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

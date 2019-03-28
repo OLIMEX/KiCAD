@@ -1,4 +1,4 @@
-(module TEMP-FOOTPRINTs:C_0402_SMALL (layer F.Cu) (tedit 561E5B45)
+(module C_0402_SMALL (layer F.Cu) (tedit 5C6BB286)
   (descr "DESIGNED BY NIKOLAY")
   (tags "DESIGNED BY NIKOLAY")
   (attr smd)
@@ -18,4 +18,9 @@
   (fp_line (start -0.79756 0.29972) (end -0.79756 -0.29972) (layer Dwgs.User) (width 0.0508))
   (pad 1 smd rect (at -0.508 0 180) (size 0.5 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.508 0) (size 0.5 0.55) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/C_0402_1005Metric.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

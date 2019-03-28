@@ -1,4 +1,4 @@
-(module MLX90614 (layer F.Cu) (tedit 5874AC70)
+(module MLX90614 (layer F.Cu) (tedit 5BD99E93)
   (fp_text reference REF** (at 0.127 6.5405) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,4 +13,9 @@
   (pad 2 thru_hole circle (at -2.54 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/MLX90614.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -45))
+  )
 )

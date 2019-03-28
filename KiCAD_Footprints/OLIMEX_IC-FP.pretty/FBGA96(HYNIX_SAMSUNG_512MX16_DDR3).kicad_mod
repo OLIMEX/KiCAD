@@ -1,4 +1,4 @@
-(module "FBGA96(HYNIX_SAMSUNG_512MX16_DDR3)" (layer F.Cu) (tedit 579875D9)
+(module "FBGA96(HYNIX_SAMSUNG_512MX16_DDR3)" (layer F.Cu) (tedit 5BD99BF8)
   (descr "FBGA96-UNIVERSAL PACKAGE")
   (tags "FBGA96-UNIVERSAL PACKAGE")
   (attr smd)
@@ -230,4 +230,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin 0.01))
   (pad T9 smd circle (at 6 -3.2 90) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.05) (solder_paste_margin 0.01))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/bga-81-2.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1.2 1.8 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

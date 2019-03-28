@@ -1,4 +1,4 @@
-(module BH10R (layer F.Cu) (tedit 58382722)
+(module BH10R (layer F.Cu) (tedit 5BD95628)
   (attr smd)
   (fp_text reference CON* (at -8.0391 -13.4366) (layer F.SilkS)
     (effects (font (size 1.1 1.1) (thickness 0.254)))
@@ -82,4 +82,9 @@
     (solder_mask_margin 0.0508))
   (pad 1 thru_hole rect (at -5.08 1.27) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508))
+  (model "${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/Header_right_angle_10way(2x5).step"
+    (offset (xyz 10.1346 11.8618 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

@@ -1,4 +1,4 @@
-(module DO214AA (layer F.Cu) (tedit 563747B3)
+(module DO214AA (layer F.Cu) (tedit 5BD96E0E)
   (attr smd)
   (fp_text reference D (at -0.8 -2.9) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
@@ -27,4 +27,9 @@
   (fp_line (start -0.381 0.635) (end -0.381 -0.635) (layer F.SilkS) (width 0.254))
   (pad A smd rect (at 2.177 0) (size 1.778 2.286) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at -2.177 0) (size 1.778 2.286) (layers F.Cu F.Paste F.Mask))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/DO-214AA_SMB.step
+    (offset (xyz 0 -0 1.3716))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

@@ -2,19 +2,17 @@
 
 Olimex KiCAD components and footprints.
 
-Why they are not push to KiCAD repository? 
+Why these components and footprints are not pushed to the main KiCAD repository? 
 
-Because they are very specific to the technology and assembly process we use and can't be considered as perfect for everyone.
+Because they are very specific to the technology and assembly process that we use and can't be considered universal and suitable for everyone.
 
-In most of the cases they duplicate components and packages which are in standard KiCAD library, which we find hard to use.
+In most of the cases these are duplicate components and packages with those in the standard KiCAD library, plus small edits to fit our goals.
 
-These component libraries just work fine for our process and are continually updated, so these libraries are not static, each time we find new way to optimize our production process for better yield we update the libraries. 
+Our component libraries just work fine for our process and are continually updated. These libraries are not static, each time we find new way to optimize our production process for better yield we update the libraries. These libraries are our current libraries that we use when we design our products.
 
-These libraries are our current libraries we use when we design our products.
+Are there no 3D drawings for the components?
 
-Why there are no 3D drawings for the components?
-
-Our developers are too busy (umhm... read lazy) to learn decent 3D CAD drawing product and to add proper 3D cad packages to these components, in matter of fact we are very poor at mechanics and never found good use of these nice 3D generated objects with KiCAD and never used them, but if someone would like to contribute 3D drawings for these components is welcome :)
+We started adding such, you can find some of those in "OLIMEX_3Dmodels" folder. Notice that we are not very good at mechanics and never found good use of these nice 3D generated objects with KiCAD, so if someone would like to contribute 3D drawings for these components is welcome :)
 
 # NO WARRANTY
 

@@ -1,4 +1,4 @@
-(module SOT223 (layer F.Cu) (tedit 5757C945)
+(module SOT223 (layer F.Cu) (tedit 5C6BB9AF)
   (descr "ROTATED BY PENKO 90 DEGREE CCW TO BA AS IS IN THE REAL REEL.")
   (tags "ROTATED BY PENKO 90 DEGREE CCW TO BA AS IS IN THE REAL REEL.")
   (attr smd)
@@ -18,4 +18,9 @@
   (pad 2 smd rect (at 3.0988 0 90) (size 1.2192 2.2352) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 3.0988 -2.3114 90) (size 1.2192 2.2352) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3.099 0 90) (size 3.6 2.2) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/SOT-223-2.STEP
+    (offset (xyz 0 0.4 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

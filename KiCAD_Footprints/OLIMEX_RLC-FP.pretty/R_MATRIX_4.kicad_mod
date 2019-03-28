@@ -1,4 +1,4 @@
-(module R_MATRIX_4 (layer F.Cu) (tedit 5A210ABA)
+(module R_MATRIX_4 (layer F.Cu) (tedit 5C6BC70A)
   (attr smd)
   (fp_text reference RM** (at -0.2032 -2.4638) (layer F.SilkS)
     (effects (font (size 1.1 1.1) (thickness 0.254)))
@@ -64,4 +64,9 @@
     (solder_mask_margin 0.0508) (clearance 0.0508))
   (pad 3.1 smd rect (at 0.381 0.762) (size 0.381 1.016) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (clearance 0.0508))
+  (model ${KISYS3DMOD}/R_Array_Convex_4x0603.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

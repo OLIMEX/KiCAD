@@ -1,4 +1,4 @@
-(module SOT23-3 (layer F.Cu) (tedit 5829B481)
+(module SOT23-3 (layer F.Cu) (tedit 5C7009B8)
   (descr "ROTATED COUNTERCLOCKWISE 90 BY PENKO TO BA AS IS IN THE REAL REEL")
   (tags "ROTATED COUNTERCLOCKWISE 90 BY PENKO TO BA AS IS IN THE REAL REEL")
   (attr smd)
@@ -48,4 +48,9 @@
     (solder_mask_margin 0.0508))
   (pad 3 smd rect (at -1.1 0 90) (size 1 1.4) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508))
+  (model ${KISYS3DMOD}/BAT54.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

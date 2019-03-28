@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-26022015-109378";"";
+"REFERENCE";"M50-3602042";"";
+"TraceParts.ClassPath";"";"";
+"TraceParts.PartVersion";"1.0.1";"";
+"TraceParts.InstanceId";"10-26022015-109378LN5JHQBZDS68CETVCR0OEYNU";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartTitle";"Header 2x20way DIL SMT Pin";"";
+"SUPPLIER";"harwin";"";
+"DESIGN";"Header 2x20way DIL SMT Pin";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";

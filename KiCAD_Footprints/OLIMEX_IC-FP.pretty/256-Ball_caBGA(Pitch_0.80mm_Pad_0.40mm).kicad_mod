@@ -1,4 +1,4 @@
-(module "256-Ball_caBGA(Pitch_0.80mm_Pad_0.40mm)" (layer F.Cu) (tedit 57D80114)
+(module "256-Ball_caBGA(Pitch_0.80mm_Pad_0.40mm)" (layer F.Cu) (tedit 5BD99891)
   (descr www.latticesemi.com/view_document?document_id=50497)
   (tags "Designed by Penko")
   (attr smd)
@@ -542,4 +542,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin 0.01))
   (pad A1 smd circle (at -6 6 90) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.05) (solder_paste_margin 0.01))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/BGA289_14X14.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

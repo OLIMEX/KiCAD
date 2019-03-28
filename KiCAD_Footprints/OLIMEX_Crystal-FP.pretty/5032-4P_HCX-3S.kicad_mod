@@ -1,4 +1,4 @@
-(module 5032-4P_HCX-3S (layer F.Cu) (tedit 5813050B)
+(module 5032-4P_HCX-3S (layer F.Cu) (tedit 5BD958B9)
   (attr smd)
   (fp_text reference Q (at -2.79 -2.82) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
@@ -29,4 +29,9 @@
   (pad 2 smd rect (at 1.27 1.27) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.27 -1.27) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -1.27 -1.27) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/QSG5032.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module HN1x7 (layer F.Cu) (tedit 58393D8C)
+(module HN1x7 (layer F.Cu) (tedit 5C8A4EDC)
   (solder_mask_margin 0.0508)
   (solder_paste_margin -0.0508)
   (attr smd)
@@ -67,4 +67,9 @@
   (pad 5 thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 5.08 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at 7.62 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/HN1x7-PinHeader_1x07_P2.54mm_Vertical.step
+    (offset (xyz 7.62 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

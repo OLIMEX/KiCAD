@@ -1,4 +1,4 @@
-(module HN1x40 (layer F.Cu) (tedit 58393D0C)
+(module HN1x40 (layer F.Cu) (tedit 5C8A598E)
   (solder_mask_margin 0.0508)
   (solder_paste_margin -0.0508)
   (attr smd)
@@ -732,4 +732,9 @@
   (pad 38 thru_hole circle (at 44.45 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
   (pad 37 thru_hole circle (at 41.91 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
   (pad 21 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/HN1x40-PinHeader_1x40_P2.54mm_Vertical.step
+    (offset (xyz 49.53 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

@@ -1,4 +1,4 @@
-(module "QFN32_EP(33)_4.00x4.00x0.80mm_Pitch_0.40mm" (layer F.Cu) (tedit 5A4B6F72)
+(module "QFN32_EP(33)_4.00x4.00x0.80mm_Pitch_0.40mm" (layer F.Cu) (tedit 5C6BC85B)
   (autoplace_cost90 10)
   (attr smd)
   (fp_text reference U* (at -0.75 4) (layer F.SilkS)
@@ -108,4 +108,9 @@
   (pad FPaste smd rect (at -1.05 0) (size 0.7 0.6) (layers F.Cu F.Paste))
   (pad FPaste smd rect (at 1.05 0) (size 0.7 0.6) (layers F.Cu F.Paste))
   (pad FPaste smd rect (at 0 -1.05 90) (size 0.7 0.6) (layers F.Cu F.Paste))
+  (model ${KISYS3DMOD}/QFN32_4x4.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

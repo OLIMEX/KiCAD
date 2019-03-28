@@ -1,4 +1,4 @@
-(module CD32 (layer F.Cu) (tedit 5A210A02)
+(module CD32 (layer F.Cu) (tedit 5C6BC0B3)
   (descr "ROTATED COUNTERCLOCKWISE 90")
   (tags "ROTATED COUNTERCLOCKWISE 90")
   (attr smd)
@@ -19,4 +19,9 @@
     (solder_mask_margin 0.0508) (clearance 0.0508))
   (pad 2 smd rect (at 1.2 0 180) (size 1.6 3) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (clearance 0.0508))
+  (model ${KISYS3DMOD}/CD32_inductor.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

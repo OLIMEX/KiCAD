@@ -1,4 +1,4 @@
-(module L_0805_5MIL_DWS (layer F.Cu) (tedit 5A21124A)
+(module L_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB6CB)
   (descr "Resistor SMD 0805, hand soldering")
   (tags "resistor 0805")
   (attr smd)
@@ -20,7 +20,7 @@
     (solder_mask_margin 0.0508) (clearance 0.0508))
   (pad 1 smd rect (at -1.016 0) (size 1.524 1.27) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (clearance 0.0508))
-  (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+  (model ${KISYS3DMOD}/L_0805_2012Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

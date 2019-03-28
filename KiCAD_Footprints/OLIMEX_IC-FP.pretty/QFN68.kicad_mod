@@ -1,4 +1,4 @@
-(module QFN68 locked (layer F.Cu) (tedit 59082A51)
+(module QFN68 locked (layer F.Cu) (tedit 5BD94B9B)
   (attr smd)
   (fp_text reference U* (at -2.25 -6.5) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
@@ -212,4 +212,9 @@
   (pad Past smd rect (at -1.75 1.8) (size 1.5 1.6) (layers F.Paste))
   (pad Past smd rect (at 0 1.75) (size 1.2 1.7) (layers F.Paste))
   (pad Past smd rect (at 1.75 1.8) (size 1.5 1.6) (layers F.Paste))
+  (model "${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/QFN68(8x8mm).step"
+    (offset (xyz -0 -0 0.8128000000000001))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 180))
+  )
 )

@@ -1,4 +1,4 @@
-(module "QFN-20_EP(21)_4x4x0.9mm_Pitch_0.5mm" (layer F.Cu) (tedit 5A8A7062)
+(module "QFN-20_EP(21)_4x4x0.9mm_Pitch_0.5mm" (layer F.Cu) (tedit 5BD99FDB)
   (autoplace_cost90 10)
   (attr smd)
   (fp_text reference U* (at -2 3.5) (layer F.SilkS)
@@ -77,4 +77,9 @@
     (solder_mask_margin 0.0508))
   (pad FID2 smd circle (at -2 -2) (size 0.5 0.5) (layers F.Cu F.Mask)
     (solder_mask_margin 0.0508))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/QFN-20_5x5x0_9mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 0.8 0.8 0.8))
+    (rotate (xyz -90 0 0))
+  )
 )

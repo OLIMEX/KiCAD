@@ -1,4 +1,4 @@
-(module BH40S (layer F.Cu) (tedit 5887446D)
+(module BH40S (layer F.Cu) (tedit 5C6BAED2)
   (attr smd)
   (fp_text reference CON* (at -25.4 5.715) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
@@ -95,4 +95,9 @@
   (pad 8 thru_hole circle (at -16.51 -1.27) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at -13.97 1.27) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at -13.97 -1.27) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/BH-40__64.step
+    (offset (xyz -24 -1.27 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

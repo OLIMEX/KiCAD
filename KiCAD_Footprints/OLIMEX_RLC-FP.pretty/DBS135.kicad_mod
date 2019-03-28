@@ -1,4 +1,4 @@
-(module DBS135 (layer F.Cu) (tedit 5ADDBDB1)
+(module DBS135 (layer F.Cu) (tedit 5C6BC9C4)
   (descr https://store.comet.bg/download-file.php?id=442)
   (tags Inductor)
   (attr smd)
@@ -34,4 +34,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin 0.1))
   (pad 2 smd rect (at 5.35 0) (size 3.2 2.5) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin 0.1))
+  (model ${KISYS3DMOD}/L_AX97-103R3.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1.8 1.8 1.8))
+    (rotate (xyz -90 0 0))
+  )
 )

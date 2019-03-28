@@ -1,4 +1,4 @@
-(module "uSD(TFC-9P-1.xH(ATFFS150A01BR016))" (layer F.Cu) (tedit 59E8804F)
+(module "uSD(TFC-9P-1.xH(ATFFS150A01BR016))" (layer F.Cu) (tedit 5C6BE490)
   (descr "OFFSET X-> -0.950MM")
   (tags "OFFSET X-> -0.950MM")
   (attr smd)
@@ -88,4 +88,14 @@
     (solder_mask_margin 0.0508) (clearance 0.0508))
   (pad 8 smd rect (at -3.85 3.3) (size 0.5 1) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (clearance 0.0508))
+  (model ${KISYS3DMOD}/Micro_SD_card.step
+    (offset (xyz 0.5 -4.5 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
+  (model ${KISYS3DMOD}/microSD.step
+    (offset (xyz 0 0 0.5))
+    (scale (xyz 0.8 0.5 1))
+    (rotate (xyz 0 0 0))
+  )
 )

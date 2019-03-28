@@ -1,4 +1,4 @@
-(module "DO-213AB(MELF)_1C-2A_KA" (layer F.Cu) (tedit 55FA81DC)
+(module "DO-213AB(MELF)_1C-2A_KA" (layer F.Cu) (tedit 5BD96D53)
   (descr http://store.comet.bg/download-file.php?id=3878)
   (tags "1N4007/SMD/DO-213AB(MELF)")
   (attr smd)
@@ -25,4 +25,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (clearance 0.0508))
   (pad 2 smd rect (at 2.5 0) (size 2 3) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (clearance 0.0508))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/MELF_DO-213AB.step
+    (offset (xyz -0.1016 -1.6002 1.3462))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module 14_TDFN-EP (layer F.Cu) (tedit 5885EACE)
+(module 14_TDFN-EP (layer F.Cu) (tedit 5BD97180)
   (fp_text reference U1 (at 0.042 -2.794) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
@@ -45,4 +45,9 @@
     (solder_paste_margin 0.0055))
   (pad 14 smd rect (at -1.2 -1.5) (size 0.2 0.8) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin 0.0055))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/TDFN-EP-14.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

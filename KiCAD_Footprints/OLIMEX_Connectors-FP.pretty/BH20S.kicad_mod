@@ -1,4 +1,4 @@
-(module BH20S (layer F.Cu) (tedit 588744E4)
+(module BH20S (layer F.Cu) (tedit 5C6BADA9)
   (attr smd)
   (fp_text reference CON* (at -12.7 5.715) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
@@ -75,4 +75,9 @@
   (pad 8 thru_hole circle (at -3.81 -1.27) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at -1.27 1.27) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at -1.27 -1.27) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/BH-20__64.step
+    (offset (xyz -11.5 -1.25 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

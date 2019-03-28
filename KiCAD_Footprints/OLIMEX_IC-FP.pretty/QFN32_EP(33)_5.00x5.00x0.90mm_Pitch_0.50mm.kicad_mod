@@ -1,4 +1,4 @@
-(module "QFN32_EP(33)_5.00x5.00x0.90mm_Pitch_0.50mm" (layer F.Cu) (tedit 58F720B9)
+(module "QFN32_EP(33)_5.00x5.00x0.90mm_Pitch_0.50mm" (layer F.Cu) (tedit 5C6BC89B)
   (autoplace_cost90 10)
   (attr smd)
   (fp_text reference U2 (at -0.75 4) (layer F.SilkS)
@@ -177,4 +177,9 @@
     (zone_connect 2))
   (pad 33 smd rect (at 0 0) (size 3.6 3.6) (layers F.Cu F.Mask)
     (solder_mask_margin 0.0508))
+  (model ${KISYS3DMOD}/QFN32_5x5.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

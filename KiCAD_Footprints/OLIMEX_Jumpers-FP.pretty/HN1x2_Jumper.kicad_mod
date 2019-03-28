@@ -1,4 +1,4 @@
-(module HN1x2_Jumper (layer F.Cu) (tedit 56B0B914)
+(module HN1x2_Jumper (layer F.Cu) (tedit 5C8A6667)
   (descr SIP4)
   (tags SIP4)
   (attr smd)
@@ -16,9 +16,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin -0.0508))
   (pad 2 thru_hole circle (at 1.27 0 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin -0.0508))
-  (model Housings_SIP/SIP9_Housing.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 0 0 0))
+  (model ${KISYS3DMOD}/HN1x2-PinHeader_1x02_P2.54mm_Vertical.step
+    (offset (xyz 1.27 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )

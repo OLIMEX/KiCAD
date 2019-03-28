@@ -1,4 +1,4 @@
-(module IT1185AU2 (layer F.Cu) (tedit 55ED35D3)
+(module IT1185AU2 (layer F.Cu) (tedit 5BD94CBC)
   (attr smd)
   (fp_text reference BUTTON (at 0.3582 2.2118) (layer F.SilkS)
     (effects (font (size 1 1.1) (thickness 0.2)))
@@ -17,4 +17,9 @@
   (pad 2 smd rect (at 2.1 0) (size 1.5 1.4) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 0 -0.85) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 0.85) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/it1185.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

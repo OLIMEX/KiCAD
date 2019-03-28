@@ -1,4 +1,4 @@
-(module C_1206_5MIL_DWS (layer F.Cu) (tedit 5641F09D)
+(module C_1206_5MIL_DWS (layer F.Cu) (tedit 5C6BB2BC)
   (attr smd)
   (fp_text reference C* (at -1.143 -2.159) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
@@ -23,4 +23,9 @@
     (solder_mask_margin 0.0508))
   (pad 2 smd rect (at 1.397 0) (size 1.524 1.778) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508))
+  (model ${KISYS3DMOD}/C_1206_3216Metric.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module "BTH-U-20-LF(BatteryHolderVertical)" (layer F.Cu) (tedit 5891CBB0)
+(module "BTH-U-20-LF(BatteryHolderVertical)" (layer F.Cu) (tedit 5BD96043)
   (fp_text reference BAT (at 3.3 -4.1) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
@@ -22,4 +22,9 @@
   (pad 1 thru_hole circle (at -5 1.6) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 5 1.6) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 -1.6) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
+  (model ${OLIMEXFOOTPATH}/OLIMEX_3Dmodels/BATTHOLDERBK-5058.step
+    (offset (xyz 11.6 3 -0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -180))
+  )
 )

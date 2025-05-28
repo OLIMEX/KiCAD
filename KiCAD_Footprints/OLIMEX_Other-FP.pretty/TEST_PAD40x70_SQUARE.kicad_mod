@@ -1,5 +1,4 @@
-(module TEST_PAD40x70_SQUARE (layer F.Cu) (tedit 58393967)
-  (attr virtual)
+(module TEST_PAD40x70_SQUARE (layer F.Cu) (tedit 62FF6795)
   (fp_text reference TP* (at 0.254 -1.651) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

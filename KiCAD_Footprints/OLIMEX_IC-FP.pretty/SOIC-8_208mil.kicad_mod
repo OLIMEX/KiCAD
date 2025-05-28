@@ -1,4 +1,4 @@
-(module SOIC-8_208mil (layer F.Cu) (tedit 55F7BF65)
+(module SOIC-8_208mil (layer F.Cu) (tedit 6203B711)
   (descr SO-8)
   (tags SO-8)
   (attr smd)
@@ -66,4 +66,9 @@
     (solder_mask_margin 0.0508) (clearance 0.0508))
   (pad 8 smd rect (at -1.905 -3.235) (size 0.6 2) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (clearance 0.0508))
+  (model ${KISYS3DMOD}/SO-8_208mil---SOIC8_Wide_5mmx5mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

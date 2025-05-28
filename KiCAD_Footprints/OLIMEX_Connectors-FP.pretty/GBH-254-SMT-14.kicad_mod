@@ -1,4 +1,4 @@
-(module GBH-254-SMT-14 (layer F.Cu) (tedit 5C6FBA04)
+(module GBH-254-SMT-14 (layer F.Cu) (tedit 5E5FA6A9)
   (solder_mask_margin 0.0508)
   (solder_paste_margin 0.127)
   (attr smd)
@@ -161,4 +161,9 @@
   (pad past smd trapezoid (at 2.54 -3.125) (size 1.7 4.25) (layers F.Paste))
   (pad past smd trapezoid (at 5.08 -3.125) (size 1.7 4.25) (layers F.Paste))
   (pad past smd trapezoid (at 7.62 -3.125) (size 1.7 4.25) (layers F.Paste))
+  (model "${KISYS3DMOD}/GBH-254-SMT-14(B-V-14-LF).stp"
+    (offset (xyz 0 0 6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,7 +1,6 @@
-(module SIP-7_Universal (layer F.Cu) (tedit 5C8B4EBC)
+(module SIP-7_Universal (layer F.Cu) (tedit 62FF72C8)
   (descr http://www.aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM1D-N-Z.pdf)
   (solder_mask_margin 0.0508)
-  (attr smd)
   (fp_text reference DCDC1 (at 0 -1.905) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

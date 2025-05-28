@@ -1,4 +1,5 @@
-(module FPA-WZB25-04-LF (layer F.Cu) (tedit 5AA936CC)
+(module FPA-WZB25-04-LF (layer F.Cu) (tedit 62FF620B)
+  (attr smd)
   (fp_text reference CON* (at -0.05 5) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
@@ -49,4 +50,9 @@
   (pad 0 smd rect (at 4 0.8 180) (size 2.2 2.6) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin -0.01) (solder_paste_margin 0.1))
   (pad 0 smd rect (at 3.8 0.3 180) (size 2.6 3.6) (layers F.Cu))
+  (model ${KISYS3DMOD}/FPA-WZB25-04-LF.stp
+    (offset (xyz -0 -1.905 0))
+    (scale (xyz 1 1 0.8))
+    (rotate (xyz -90 0 -180))
+  )
 )

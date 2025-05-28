@@ -1,5 +1,4 @@
-(module CPOL_200mils_R10mm (layer F.Cu) (tedit 572B5114)
-  (attr smd)
+(module CPOL_200mils_R10mm (layer F.Cu) (tedit 62FF76D5)
   (fp_text reference C4 (at 0.381 6.223) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

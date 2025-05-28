@@ -1,0 +1,16 @@
+(module MicroPython_Logo6 (layer F.Cu) (tedit 62AC1F2F)
+  (attr virtual)
+  (fp_text reference MicroPython_Logo (at -0.09652 -9.01446) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_text value LOGO (at -0.24384 -11.6713) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_poly (pts (xy -4.0894 7.239) (xy -7.239 7.239) (xy -7.239 -7.239) (xy -0.3048 -7.239)
+    (xy -0.3048 4.0894) (xy 0.3048 4.0894) (xy 0.3048 7.239) (xy -3.4544 7.239)
+    (xy -3.4544 -4.0894) (xy -4.0894 -4.0894) (xy -4.0894 6.7564)) (layer F.SilkS) (width 0.1))
+  (fp_poly (pts (xy 0.3048 -7.239) (xy 0.3048 7.239) (xy 3.4544 7.239) (xy 3.4544 -4.0894)
+    (xy 4.0894 -4.0894) (xy 4.0894 4.5212) (xy 7.239 4.5212) (xy 7.239 -7.239)) (layer F.SilkS) (width 0.1))
+  (fp_poly (pts (xy 5.3086 4.5212) (xy 5.3086 5.9944) (xy 6.1976 5.9944) (xy 6.1976 4.572)
+    (xy 7.239 4.572) (xy 7.239 7.239) (xy 4.0894 7.239) (xy 4.0894 4.5212)) (layer F.SilkS) (width 0.1))
+)

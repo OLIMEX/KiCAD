@@ -29,7 +29,7 @@ ENDDEF
 DEF Fiducial FID 0 0 N N 1 F N
 F0 "FID" -75 125 50 H V L BNN
 F1 "Fiducial" -150 -175 50 H V L BNN
-F2 "" -290 -75 20 H I C CNN
+F2 "OLIMEX_Other-FP:Fiducial1x3" 10 -225 20 H I C CNN
 F3 "" -50 0 60 V V C CNN
 $FPLIST
  *TEST_PAD40/70/SQUARE*
@@ -108,7 +108,7 @@ ENDDEF
 #
 # Mounting_hole_Shield_3.3mm
 #
-DEF ~Mounting_hole_Shield_3.3mm Mount-Hole-3.3mm 0 0 N N 1 F N
+DEF Mounting_hole_Shield_3.3mm Mount-Hole-3.3mm 0 0 N N 1 F N
 F0 "Mount-Hole-3.3mm" -100 60 50 H V L BNN
 F1 "Mounting_hole_Shield_3.3mm" -100 -115 50 H I L BNN
 F2 "" -240 -75 20 H I C CNN
@@ -149,6 +149,21 @@ P 2 1 0 0 50 -50 100 0 N
 P 2 1 0 0 50 50 0 0 N
 P 2 1 0 0 100 0 50 50 N
 X GND1 GND1 -100 0 100 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Sensor_pad
+#
+DEF Sensor_pad U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "Sensor_pad" 0 -100 50 H V C CNN
+F2 "OLIMEX_Buttons-FP:Sensor_Button" 0 -200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 50 -50 -50 0 1 0 N
+S 50 50 150 -50 1 1 0 N
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

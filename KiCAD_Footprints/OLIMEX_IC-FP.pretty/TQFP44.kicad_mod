@@ -1,4 +1,4 @@
-(module TQFP44 (layer F.Cu) (tedit 58E4EABF)
+(module TQFP44 (layer F.Cu) (tedit 5F4E3475)
   (fp_text reference U* (at 0 8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
@@ -109,4 +109,9 @@
     (solder_mask_margin 0.0508))
   (pad 1 smd rect (at -4 5.6) (size 0.4 2) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508))
+  (model ${KISYS3DMOD}/TQFP-44-10x10x1mm_Step-0.80mm.STEP
+    (offset (xyz -6 -6 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,7 +1,6 @@
-(module PWR_JACK_UNI_MILLING (layer F.Cu) (tedit 5714949C)
+(module PWR_JACK_UNI_MILLING (layer F.Cu) (tedit 62FF398B)
   (solder_mask_margin 0.0508)
   (solder_paste_margin -0.0508)
-  (attr smd)
   (fp_text reference PWR_JACK (at -8.75 -10.5) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

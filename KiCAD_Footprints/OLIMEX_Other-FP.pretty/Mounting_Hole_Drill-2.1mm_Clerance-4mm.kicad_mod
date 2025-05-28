@@ -1,0 +1,11 @@
+(module Mounting_Hole_Drill-2.1mm_Clerance-4mm (layer F.Cu) (tedit 6448C173)
+  (fp_text reference MountingHole* (at 0 -5.08) (layer F.Fab) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value Mounting_Hole_Drill-2.1mm_Clerance-4mm (at 0 5.08) (layer F.Fab) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_circle (center 0 0) (end 2 0) (layer Dwgs.User) (width 0.254))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.0508) (clearance 0.95))
+)

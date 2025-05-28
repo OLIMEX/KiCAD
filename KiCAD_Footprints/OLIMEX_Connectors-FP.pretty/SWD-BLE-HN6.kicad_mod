@@ -1,7 +1,6 @@
-(module SWD-BLE-HN6 (layer F.Cu) (tedit 5799CD21)
+(module SWD-BLE-HN6 (layer F.Cu) (tedit 62FF3CE7)
   (solder_mask_margin 0.0508)
   (solder_paste_margin -0.0508)
-  (attr smd)
   (fp_text reference P4 (at -5.461 2.413) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

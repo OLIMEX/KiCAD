@@ -1,4 +1,5 @@
-(module TF-9P-01-TERES (layer F.Cu) (tedit 57C573D4)
+(module TF-9P-01-TERES (layer F.Cu) (tedit 62FF3EDB)
+  (attr smd)
   (fp_text reference MICRO_SD1 (at 0.5 0) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-15052018-126082";"";
+"REFERENCE";"CMA-6542PF";"";
+"TraceParts.PartTitle";"CMA-6542PF - 9.7 mm, Omnidirectional, PCB Mount, 4.5 Vdc, Electret Condenser Microphone, RoHS Compliant";"";
+"TraceParts.InstanceId";"10-15052018-1260822YGG7VF6QD2IDIGYVH2M8TV5F";"";
+"DESIGN";"9.7 mm, Omnidirectional, PCB Mount, 4.5 Vdc, Electret Condenser Microphone";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"CUI";"";
+"TraceParts.PartVersion";"1.0.1";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"CUI:/F_CUI/CUI.030/CUI.030.020/CUI.030.020.010/10-15052018-126082";"";

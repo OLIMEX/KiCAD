@@ -1,5 +1,6 @@
-(module CSP1.56x1.96-20_Pitch_0.40mm (layer F.Cu) (tedit 5BD99B0F)
+(module CSP1.56x1.96-20_Pitch_0.40mm (layer F.Cu) (tedit 62E23E04)
   (descr http://www.t-firefly.com/download/firefly-rk3288/hardware/AN_SYR827%20SYR828%20for%20Rockchip.pdf)
+  (attr smd)
   (fp_text reference U* (at 0 -2.159) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )

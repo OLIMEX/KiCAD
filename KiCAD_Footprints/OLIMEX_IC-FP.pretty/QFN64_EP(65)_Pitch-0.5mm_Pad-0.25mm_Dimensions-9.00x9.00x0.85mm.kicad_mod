@@ -1,4 +1,4 @@
-(module "QFN64_EP(65)_Pitch-0.5mm_Pad-0.25mm_Dimensions-9.00x9.00x0.85mm" (layer F.Cu) (tedit 5BD94735)
+(module "QFN64_EP(65)_Pitch-0.5mm_Pad-0.25mm_Dimensions-9.00x9.00x0.85mm" (layer F.Cu) (tedit 5DCE8F54)
   (descr "THIS IS PACKAGE 'QNF48_1DRILL(PITCH-0.5MM)' IS MADE FIRST FOR 'KSZ9031RNX'GIGABIT ETHERNET TRANSEIVER. IT'S COPY OF THE PACKAGE 'QNF48_1DRILL'. THE PADS PITCH IS CHANGED ACCORDING TO THE DATASHEET KSZ9031RNX.PDF TO 0.5MM, PAD SIZE TOO 0.25MM. BUT PAD LENGHT WAS INCREASED TO 0.9MM FOR EASY SOLDERING.  TODOR")
   (tags "THIS IS PACKAGE 'QNF48_1DRILL(PITCH-0.5MM)' IS MADE FIRST FOR 'KSZ9031RNX'GIGABIT ETHERNET TRANSEIVER. IT'S COPY OF THE PACKAGE 'QNF48_1DRILL'. THE PADS PITCH IS CHANGED ACCORDING TO THE DATASHEET KSZ9031RNX.PDF TO 0.5MM, PAD SIZE TOO 0.25MM. BUT PAD LENGHT WAS INCREASED TO 0.9MM FOR EASY SOLDERING.  TODOR")
   (attr smd)
@@ -230,7 +230,7 @@
     (solder_mask_margin 0.0508) (solder_paste_margin -0.01))
   (pad 1 smd rect (at -3.75 4.45) (size 0.25 0.9) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin -0.01))
-  (model /home/nikolay/Documents/SVN/KiCAD_Footprints/OLIMEX_3Dmodels/QFN-64-1EP_9x9mm_P0.5mm_EP7.35x7.35mm.wrl
+  (model ${KISYS3DMOD}/QFN-64-1EP_9x9mm_P0.5mm_EP7.35x7.35mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

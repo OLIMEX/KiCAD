@@ -1,5 +1,4 @@
-(module AK700-2-V (layer F.Cu) (tedit 554C8CC3)
-  (attr smd)
+(module AK700-2-V (layer F.Cu) (tedit 62FF20CC)
   (fp_text reference AK700-2-V (at 0.127 4.191) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

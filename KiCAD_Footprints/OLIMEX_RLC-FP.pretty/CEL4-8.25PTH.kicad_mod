@@ -1,5 +1,4 @@
-(module CEL4-8.25PTH (layer F.Cu) (tedit 572B50F9)
-  (attr smd)
+(module CEL4-8.25PTH (layer F.Cu) (tedit 62FF7397)
   (fp_text reference C14 (at 0.0635 5.0165) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,4 +1,4 @@
-(module "CD53(54)" (layer F.Cu) (tedit 5A97FCDB)
+(module "CD53(54)" (layer F.Cu) (tedit 5D5FC1CB)
   (descr "ROTATED COUNTERCLOCKWISE 90")
   (tags "ROTATED COUNTERCLOCKWISE 90")
   (attr smd)
@@ -31,4 +31,9 @@
     (solder_mask_margin 0.0508))
   (pad 2 smd rect (at 1.9 0 90) (size 5.4 2.2) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508))
+  (model ${KISYS3DMOD}/CD54.STEP
+    (offset (xyz -2.590799999999999 2.590799999999999 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

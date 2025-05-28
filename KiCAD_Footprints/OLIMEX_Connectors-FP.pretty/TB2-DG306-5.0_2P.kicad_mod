@@ -1,4 +1,4 @@
-(module TB2-DG306-5.0_2P (layer F.Cu) (tedit 580E0A9A)
+(module TB2-DG306-5.0_2P (layer F.Cu) (tedit 62D80222)
   (fp_text reference CON** (at -2.94 -6.57) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -30,4 +30,9 @@
   (fp_line (start 4.83 -3.3) (end 4.83 -2.2) (layer F.SilkS) (width 0.254))
   (pad 2 thru_hole circle (at 2.5 0) (size 3.048 3.048) (drill 1.3) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -2.5 0) (size 3.048 3.048) (drill 1.3) (layers *.Cu *.Mask))
+  (model "${KISYS3DMOD}/User Library-DG306-5_0-1.STEP"
+    (offset (xyz -2.5 1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

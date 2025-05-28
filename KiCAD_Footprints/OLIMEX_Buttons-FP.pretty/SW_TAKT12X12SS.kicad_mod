@@ -1,5 +1,4 @@
-(module SW_TAKT12X12SS (layer F.Cu) (tedit 5C88E5B7)
-  (attr virtual)
+(module SW_TAKT12X12SS (layer F.Cu) (tedit 62FB7CF0)
   (fp_text reference BUT (at 0 -8.255) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

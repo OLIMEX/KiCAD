@@ -1,4 +1,4 @@
-(module SOT89 (layer F.Cu) (tedit 5A211009)
+(module SOT89 (layer F.Cu) (tedit 5CEFD972)
   (descr "SOT89-3, Housing, Handsoldering,")
   (tags "SOT89-3, Housing, Handsoldering,")
   (attr smd)
@@ -25,9 +25,9 @@
     (solder_mask_margin 0.0508) (clearance 0.0508))
   (pad 2 smd trapezoid (at 0 0.7493 180) (size 1.50114 0.7493) (rect_delta 0 0.50038 ) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (clearance 0.0508))
-  (model Housings_SOT-89.3dshapes/SOT89-3_Housing_Handsoldering.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+  (model ${KISYS3DMOD}/SOT89-1.STEP
+    (offset (xyz 0 0.1016 0.0254))
+    (scale (xyz 0.95 1.2 1))
     (rotate (xyz 0 0 0))
   )
 )

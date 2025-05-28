@@ -1,7 +1,6 @@
-(module HN1x8_EDGE (layer F.Cu) (tedit 5B98C6EE)
+(module HN1x8_EDGE (layer F.Cu) (tedit 62FF2AD0)
   (solder_mask_margin 0.0508)
   (solder_paste_margin -0.0508)
-  (attr smd)
   (fp_text reference CON (at -0.02 -2.69) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

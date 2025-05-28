@@ -1,4 +1,5 @@
-(module USB-B-EDGE (layer F.Cu) (tedit 58ECABF1)
+(module USB-B-EDGE (layer F.Cu) (tedit 62FF3F99)
+  (attr smd)
   (fp_text reference REF** (at 0 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

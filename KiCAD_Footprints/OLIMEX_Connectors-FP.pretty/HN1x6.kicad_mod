@@ -1,7 +1,6 @@
-(module HN1x6 (layer F.Cu) (tedit 5C8A4562)
+(module HN1x6 (layer F.Cu) (tedit 62FF2A2C)
   (solder_mask_margin 0.0508)
   (solder_paste_margin -0.0508)
-  (attr smd)
   (fp_text reference CON (at -5.461 2.413) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

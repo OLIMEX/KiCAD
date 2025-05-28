@@ -1,4 +1,5 @@
-(module CONN-AUDIO-TERES (layer F.Cu) (tedit 57BE9F60)
+(module CONN-AUDIO-TERES (layer F.Cu) (tedit 62FF2395)
+  (attr smd)
   (fp_text reference REF** (at 8.05 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

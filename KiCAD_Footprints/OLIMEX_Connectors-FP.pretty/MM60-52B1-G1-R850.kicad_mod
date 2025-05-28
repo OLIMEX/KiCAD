@@ -1,4 +1,4 @@
-(module MM60-52B1-G1-R850 (layer F.Cu) (tedit 5BC993FD)
+(module MM60-52B1-G1-R850 (layer F.Cu) (tedit 5E2AD253)
   (descr MM60-52B1-G1-R850)
   (tags MM60-52B1-G1-R850)
   (solder_mask_margin 0.0508)
@@ -238,4 +238,9 @@
     (solder_paste_margin 0.1))
   (pad MP2 smd rect (at -12.1 26.65 180) (size 1.6 1.9) (layers F.Cu F.Mask)
     (solder_paste_margin 0.1))
+  (model "${KISYS3DMOD}/User Library-AS0B22x-S68Q-7H_317-0000-2034-B-3D.STEP"
+    (offset (xyz -12.95 3.6 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 180))
+  )
 )

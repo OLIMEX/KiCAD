@@ -1,4 +1,4 @@
-(module PROTO-SOT89-3 (layer F.Cu) (tedit 5552FBF2)
+(module PROTO-SOT89-3 (layer F.Cu) (tedit 62FF6EBE)
   (descr "SOT89-3, Housing, Handsoldering,")
   (tags "SOT89-3, Housing, Handsoldering,")
   (attr smd)
@@ -25,9 +25,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (clearance 0.0508))
   (pad 2 smd trapezoid (at 0 0.7493 180) (size 1.50114 0.7493) (rect_delta 0 0.50038 ) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (clearance 0.0508))
-  (pad 1 thru_hole rect (at -2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole rect (at 2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole rect (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole rect (at 2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole rect (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (model Housings_SOT-89.3dshapes/SOT89-3_Housing_Handsoldering.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))

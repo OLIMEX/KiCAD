@@ -1,4 +1,5 @@
-(module "MICRO_SD(TFC-WXCP11-08-LF)" (layer F.Cu) (tedit 57BE8DA6)
+(module "MICRO_SD(TFC-WXCP11-08-LF)" (layer F.Cu) (tedit 62FF2FF3)
+  (attr smd)
   (fp_text reference MICRO_SD1 (at -0.5 0 90) (layer B.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )

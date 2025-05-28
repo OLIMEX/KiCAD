@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC33PF8100C(x)ES(HVQFN-56_8.0x8.0mm)
+D The PF8100/PF8200 is a power management integrated circuit (PMIC) designed for high performance i.MX 8 and S32x based applications.
+K PMIC
+F https://www.mouser.bg/datasheet/2/302/PF8100_PF8200-1517770.pdf
+$ENDCMP
+#
+$CMP RK808-D(QFN68(7X7mm))
+D The RK808 is a complete power supply solution for Portable systems.
+K PMU
+F https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj36v6bkrjqAhVv_SoKHY-IB34QFjAAegQIBRAB&url=http%3A%2F%2Frockchip.fr%2FRK808%2520datasheet%2520V1.4.pdf&usg=AOvVaw1MYWmtNMDz7dMRcnupbzGl
+$ENDCMP
+#
+$CMP SY8366HQQC(QFN3x3-12)
+D High Efficiency Fast Response 6A Continuous, 12A Peak, 28V Input Synchronous Step Down Regulator
+K DCDC_Step-Down
+F https://datasheet.lcsc.com/szlcsc/1806081412_Silergy-Corp-SY8366HQQC_C178253.pdf
+$ENDCMP
+#
+$CMP TPS62A02ADRLR(SOT-563-6)
+D 2A High-Efficiency Synchronous Buck Converters in a SOT563 Package
+K DCDC, Step-Down
+F https://www.ti.com/lit/ds/symlink/tps62a02a.pdf?ts=1713163235452&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS62A02A%252Fpart-details%252FTPS62A02ADRLR
+$ENDCMP
+#
+$CMP TX4138(ESOIC-8)
+D 4A, 60V, 200KHz Step-Down Converter
+K Step-Down_DCDC
+F https://datasheet.lcsc.com/lcsc/1811141153_XDS-TX4138_C329267.pdf
+$ENDCMP
+#
+#End Doc Library

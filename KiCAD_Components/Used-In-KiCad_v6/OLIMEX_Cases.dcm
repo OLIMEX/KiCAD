@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-C6-WROOM-1-xx-UNIVERSAL
+D Module that supports 2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth® 5 (LE), Zigbee and Thread(802.15.4)
+K ESP32-C6-WROOM-1
+F https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-PICO-D4
+D The ESP32-PICO-D4 is a System-in-Package (SiP) module that is based on ESP32, providing complete Wi-Fi and Bluetooth® functionalities.
+K ESP32-PICO-D4
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-S3-WROOM-1x-N8R8
+D 2.4 GHz WiFi(802.11 b/g/n) and Bluetooth® 5 (LE) module
+K ESP32-S3
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+$ENDCMP
+#
+#End Doc Library

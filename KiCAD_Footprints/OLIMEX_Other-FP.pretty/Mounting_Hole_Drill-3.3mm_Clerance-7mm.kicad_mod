@@ -1,5 +1,4 @@
-(module Mounting_Hole-3.3mm_Clerance-7mm (layer F.Cu) (tedit 5B56D7A9)
-  (attr virtual)
+(module Mounting_Hole_Drill-3.3mm_Clerance-7mm (layer F.Cu) (tedit 6213823F)
   (fp_text reference MountingHole* (at 0 -5.08) (layer F.Fab) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

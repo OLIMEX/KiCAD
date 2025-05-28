@@ -1,4 +1,4 @@
-(module "eLQFP-128(Pitch-0.40mm_Dimensions-16.00x16.00x1.60mm)" (layer F.Cu) (tedit 5BD99B81)
+(module "eLQFP-128(Pitch-0.40mm_Dimensions-16.00x16.00x1.60mm)" (layer F.Cu) (tedit 62FB7BD9)
   (descr http://linux-sunxi.org/images/2/23/Allwinner_V3s_Datasheet_V1.0.pdf)
   (tags eLQFP-128)
   (solder_mask_margin 0.0508)

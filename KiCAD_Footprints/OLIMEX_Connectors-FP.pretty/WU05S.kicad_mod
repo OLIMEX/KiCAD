@@ -1,6 +1,5 @@
-(module WU05S (layer F.Cu) (tedit 5C8B73EE)
+(module WU05S (layer F.Cu) (tedit 62FF41DA)
   (solder_mask_margin 0.0508)
-  (attr smd)
   (fp_text reference CON* (at 0 3.81) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

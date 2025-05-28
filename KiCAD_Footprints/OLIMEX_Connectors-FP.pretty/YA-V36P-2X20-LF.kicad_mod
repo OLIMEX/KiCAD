@@ -1,4 +1,4 @@
-(module YA-V36P-2X20-LF (layer F.Cu) (tedit 5B7BF6CE)
+(module YA-V36P-2X20-LF (layer F.Cu) (tedit 5CA5C444)
   (descr FEMALE)
   (tags FEMALE)
   (solder_mask_margin 0.0508)
@@ -239,4 +239,9 @@
   (pad 40 smd rect (at 12.065 2.032 90) (size 1.8 0.7) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -11.43 0 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11.43 0 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
+  (model "${KISYS3DMOD}/YA-V36P-2X20-LF---Amphenol_ICC(FCI)_20021321-00040T4LF.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

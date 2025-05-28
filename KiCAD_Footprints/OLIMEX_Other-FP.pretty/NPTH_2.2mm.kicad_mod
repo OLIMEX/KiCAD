@@ -1,4 +1,5 @@
-(module NPTH_2.2mm (layer F.Cu) (tedit 57BAD184)
+(module NPTH_2.2mm (layer F.Cu) (tedit 628F799A)
+  (solder_mask_margin 0.0508)
   (fp_text reference MountingHole (at 0 -2) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )

@@ -1,4 +1,4 @@
-(module SOIC-8 (layer F.Cu) (tedit 55F7BDFB)
+(module SOIC-8 (layer F.Cu) (tedit 5CBD5B43)
   (descr SO-8)
   (tags SO-8)
   (attr smd)
@@ -66,4 +66,9 @@
     (solder_mask_margin 0.0508) (clearance 0.0508))
   (pad 8 smd rect (at -1.905 -2.6) (size 0.6 1.8) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.0508) (clearance 0.0508))
+  (model ${KISYS3DMOD}/SO-8_150mil---SN65HVDA1050AQDRQ1.STEP
+    (offset (xyz 0 0 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

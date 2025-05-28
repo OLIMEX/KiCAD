@@ -1,0 +1,99 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADM3483ARZ_YD3082EESA(SOIC-8_150mil)
+D Full-Duplex, RS-485/RS-422 Transceivers
+K RS-485
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adm3483_3485_3488_3490_3491.pdf
+$ENDCMP
+#
+$CMP AS7038GB
+D Biosensor Solution with Embedded ECG Channel
+K AS7038GB
+$ENDCMP
+#
+$CMP CBTU02043HE(HUQFN16)
+D High-speed differential 1-to-2 switch
+K Switch
+$ENDCMP
+#
+$CMP CH224K(ESSOP10_6x5mm)
+D USB PD and Other Fast Charging Protocol Sink Controller CH224
+K CH224K
+F http://www.wch-ic.com/downloads/CH224DS1_PDF.html
+$ENDCMP
+#
+$CMP CH340E(MSOP-10)
+D USB to Serial Port Chip CH340
+K CH340E
+F http://www.wch-ic.com/downloads/CH340DS1_PDF.html
+$ENDCMP
+#
+$CMP CH340T(SSOP20W)
+D USB to Serial Port Chip CH340
+K CH340T
+F http://www.wch-ic.com/downloads/CH340DS1_PDF.html
+$ENDCMP
+#
+$CMP CH9141K(ESSOP10_6x5mm)
+D BLE and UART Bidirectional Transparent Transmission chip
+K CH9141K
+F http://wch-ic.com/downloads/CH9141DS1_PDF.html
+$ENDCMP
+#
+$CMP CH9344L(LQFP-48)
+D USB to Quad UARTs Chip CH9344
+K CH9344L
+F http://www.wch-ic.com/downloads/CH9344EVT_ZIP.html
+$ENDCMP
+#
+$CMP IP2721(TSSOP16)
+D TYPEC/PD2.0/PD3.0 Physical Layer IC for USB TYPEC input Interfaces
+K IP2721
+$ENDCMP
+#
+$CMP MIMX8MP_BGA548
+F https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-processors/i-mx-8m-plus-arm-cortex-a53-machine-learning-vision-multimedia-and-industrial-iot:IMX8MPLUS?fpsp=1&tab=Documentation_Tab
+$ENDCMP
+#
+$CMP MIMXRT1011DAE5A
+D MIMXRT1011DAE5A
+F https://www.nxp.com/docs/en/data-sheet/IMXRT1010IEC.pdf
+$ENDCMP
+#
+$CMP MIMXRT1011DAE5A_Dancho
+D MIMXRT1011DAE5A
+F https://www.nxp.com/docs/en/data-sheet/IMXRT1010IEC.pdf
+$ENDCMP
+#
+$CMP NS2009(MSOP-10)
+D 4-Wire Touch Screen Controller with I2C Interface
+K NS2009
+$ENDCMP
+#
+$CMP PTN5110NHQZ(HX2QFN16)
+D USB PD TCPC PHY IC
+$ENDCMP
+#
+$CMP SN74LVC2T45DCUR(VSSOP-8)
+D SN74LVC2T45 Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation
+K SN74LVC2T45DCUR
+$ENDCMP
+#
+$CMP ST3232B(C)DR(SO-16)
+D 3 to 5.5 V, low-power, up to 400 kbs RS-232 drivers and receivers
+K ST3232B(C)DR
+F https://www.st.com/resource/en/datasheet/st3232c.pdf
+$ENDCMP
+#
+$CMP TC358840XBG(P-VFBGA80-0707-0.65-001)
+D TC358840XBG, Ultra HD to CSI-2, bridge converts high resolution (higher than 4 Gbps) HDMI® stream to MIPI® CSI-2 Tx video.
+K TC358840XBG
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=28738&prodName=TC358840XBG
+$ENDCMP
+#
+$CMP TPS2375PW(TSSOP-8)
+D IEEE 802.3af PoE POWERED DEVICE CONTROLLERS
+F https://www.ti.com/lit/gpn/tps2375
+$ENDCMP
+#
+#End Doc Library

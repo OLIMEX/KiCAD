@@ -1,0 +1,16 @@
+(footprint "Mounting_Hole_Drill-3.3mm_Clerance-7mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "MountingHole*" (at 0 -5.08) (layer "F.Fab") hide
+      (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (tstamp 8a6d2b95-314a-4b12-9265-22b91c242c7d)
+  )
+  (fp_text value "Mounting_Hole_Drill-3.3mm_Clerance-7mm" (at 0 5.08) (layer "F.Fab") hide
+      (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (tstamp 8a973e37-9d80-45c4-aaec-eba7410088be)
+  )
+  (fp_circle (center 0 0) (end 3.5 0)
+    (stroke (width 0.254) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 75ab4dd2-b60b-459d-bf72-aa0684be46fc))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.3 3.3) (drill 3.3) (layers "F&B.Cu" "*.Mask")
+    (solder_mask_margin 0.0508) (clearance 1.85) (tstamp d4ce4777-bb20-42d1-a1b4-944b37e2094b))
+)

@@ -1,5 +1,4 @@
-(module USB_TWO_LEVEL (layer F.Cu) (tedit 588996A8)
-  (attr virtual)
+(module USB_TWO_LEVEL (layer F.Cu) (tedit 62FF4095)
   (fp_text reference USB (at 0.42 -6.01) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
@@ -41,4 +40,9 @@
   (pad 0 thru_hole circle (at 6.57 2.7) (size 3.4 3.4) (drill 2.4) (layers *.Cu *.Mask))
   (pad 0 thru_hole circle (at 6.57 -3) (size 3.4 3.4) (drill 2.4) (layers *.Cu *.Mask))
   (pad 0 thru_hole circle (at -6.57 -3) (size 3.4 3.4) (drill 2.4) (layers *.Cu *.Mask))
+  (model "${KISYS3DMOD}/USBB1-FRWH-4A(USB-Ax2)---CUI_DEVICES_UJ2-ADH-1-TH.step"
+    (offset (xyz 0 4.1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

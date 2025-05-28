@@ -1,7 +1,6 @@
-(module ICSP (layer F.Cu) (tedit 58393E84)
+(module ICSP (layer F.Cu) (tedit 62FF2EB7)
   (descr SIP5)
   (tags SIP5)
-  (attr smd)
   (fp_text reference ICSP (at 0 -3.175) (layer F.SilkS)
     (effects (font (size 0.381 0.381) (thickness 0.0635)))
   )

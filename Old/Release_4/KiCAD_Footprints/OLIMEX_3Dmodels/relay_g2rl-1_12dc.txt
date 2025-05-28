@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-16052011-064002";"";
+"REFERENCE";"G2RL-1 12DC";"";
+"TraceParts.ClassPath";"";"";
+"TraceParts.PartVersion";"1.3.0";"";
+"TraceParts.InstanceId";"10-16052011-0640025HB1WPOQMJ047LJ81QE80KL6Q";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartTitle";"PCB Power Relay (12A) – G2RL";"";
+"SUPPLIER";"OMRON";"";
+"DESIGN";"PCB Power Relay, Standard, Flux protection, 12A, 12DC";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";

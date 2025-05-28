@@ -1,4 +1,5 @@
-(module "HN1x3(SMD)" (layer F.Cu) (tedit 5816EB9D)
+(module "HN1x3(SMD)" (layer F.Cu) (tedit 62FF29FC)
+  (attr smd)
   (fp_text reference REF** (at 0 3.175) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

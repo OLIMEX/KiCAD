@@ -1,6 +1,7 @@
-(module "SIM(NANO)-HOLDER(SIM-SMT-6P(NASCT-W0012X-06-LF))" (layer F.Cu) (tedit 5C8F4ACA)
+(module "SIM(NANO)-HOLDER(SIM-SMT-6P(NASCT-W0012X-06-LF))" (layer F.Cu) (tedit 62FF3A15)
   (solder_mask_margin 0.0508)
   (solder_paste_margin 0.127)
+  (attr smd)
   (fp_text reference REF* (at 0 -8.001) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

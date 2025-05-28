@@ -1,0 +1,18 @@
+(footprint "Mounting_Hole_Drill-2.5mm_Clerance-4mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Mounting Hole NPTH")
+  (tags "MH")
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "MountingHole*" (at 0 -5.08) (layer "F.Fab") hide
+      (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (tstamp 9a9b8904-c289-46b4-b5b1-1fd351240313)
+  )
+  (fp_text value "Mounting_Hole_Drill-2.5mm_Clerance-4mm" (at 0 5.08) (layer "F.Fab") hide
+      (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (tstamp c8e28e84-13ef-47cb-b53d-d696224ea414)
+  )
+  (fp_circle (center 0 0) (end 2 0)
+    (stroke (width 0.254) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 5a27c4e1-47c6-4e60-ae9f-795089ffc943))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.5 2.5) (drill 2.5) (layers "F&B.Cu" "*.Mask")
+    (solder_mask_margin 0.0508) (clearance 0.75) (zone_connect 0) (tstamp 351b8a42-f89a-4e8c-8f72-18de1077d8aa))
+)

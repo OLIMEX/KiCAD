@@ -1,4 +1,4 @@
-(module LED-5mm-PTH-AK (layer F.Cu) (tedit 58F852A4)
+(module LED-5mm-PTH-AK (layer F.Cu) (tedit 5CBEAFF7)
   (fp_text reference LED* (at 0 4.445) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
@@ -35,4 +35,14 @@
     (solder_mask_margin 0.0508))
   (pad 2 thru_hole rect (at 1.27 0 180) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508))
+  (model ${KISYS3DMOD}/LED-5mm.STEP
+    (offset (xyz 0 0 2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/LED5mm_120.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1.75 1))
+    (rotate (xyz -90 0 -180))
+  )
 )

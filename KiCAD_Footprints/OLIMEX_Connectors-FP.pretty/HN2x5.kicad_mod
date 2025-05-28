@@ -1,7 +1,6 @@
-(module HN2x5 (layer F.Cu) (tedit 56B0B9D9)
+(module HN2x5 (layer F.Cu) (tedit 62FF2D0C)
   (solder_mask_margin 0.0508)
   (solder_paste_margin -0.0508)
-  (attr smd)
   (fp_text reference CON (at 4.22 -3.484) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
@@ -53,4 +52,9 @@
   (pad 2 thru_hole circle (at -5.08 -1.27) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -2.54 1.27) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at -2.54 -1.27) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/HN2x5-PinHeader_2x05_P2.54mm_Vertical.step
+    (offset (xyz 5.08 1.27 -0.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

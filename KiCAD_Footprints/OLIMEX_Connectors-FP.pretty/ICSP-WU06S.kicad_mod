@@ -1,5 +1,4 @@
-(module ICSP-WU06S (layer F.Cu) (tedit 5C8B600F)
-  (attr smd)
+(module ICSP-WU06S (layer F.Cu) (tedit 62FF2EEA)
   (fp_text reference ICSP1 (at -0.140001 5.42) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

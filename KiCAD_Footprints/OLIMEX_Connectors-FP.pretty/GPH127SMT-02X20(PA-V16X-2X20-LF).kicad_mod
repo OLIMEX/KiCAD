@@ -1,4 +1,4 @@
-(module "GPH127SMT-02X20(PA-V16X-2X20-LF)" (layer F.Cu) (tedit 5B7BF4FF)
+(module "GPH127SMT-02X20(PA-V16X-2X20-LF)" (layer F.Cu) (tedit 5CEFB5A7)
   (attr smd)
   (fp_text reference CON (at -10.668 4.0005) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
@@ -461,4 +461,9 @@
     (solder_mask_margin 0.0508) (solder_paste_margin 0.1))
   (pad "" np_thru_hole circle (at -11.43 0 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508) (solder_paste_margin 0.1))
+  (model ${KISYS3DMOD}/40PinMaleSMD.stp
+    (offset (xyz -12.065 0 0.4064))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

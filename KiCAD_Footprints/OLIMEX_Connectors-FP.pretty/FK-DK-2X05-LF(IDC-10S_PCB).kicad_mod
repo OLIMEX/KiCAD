@@ -1,5 +1,4 @@
-(module "FK-DK-2X05-LF(IDC-10S_PCB)" (layer F.Cu) (tedit 5B642E6C)
-  (attr smd)
+(module "FK-DK-2X05-LF(IDC-10S_PCB)" (layer F.Cu) (tedit 62FF2441)
   (fp_text reference UEXT1 (at 0 3.683) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.3175)))
   )

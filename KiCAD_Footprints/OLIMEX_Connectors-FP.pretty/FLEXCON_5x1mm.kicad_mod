@@ -1,4 +1,5 @@
-(module FLEXCON_5x1mm (layer F.Cu) (tedit 57BE8245)
+(module FLEXCON_5x1mm (layer F.Cu) (tedit 62FF2562)
+  (attr smd)
   (fp_text reference P1 (at 0 2 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

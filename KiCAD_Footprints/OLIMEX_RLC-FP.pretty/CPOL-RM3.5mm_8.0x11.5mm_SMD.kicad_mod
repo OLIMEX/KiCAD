@@ -1,4 +1,5 @@
-(module CPOL-RM3.5mm_8.0x11.5mm_SMD (layer F.Cu) (tedit 5C6BEE28)
+(module CPOL-RM3.5mm_8.0x11.5mm_SMD (layer F.Cu) (tedit 62FF76AE)
+  (attr smd)
   (fp_text reference C* (at 0 2.5) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

@@ -40,7 +40,7 @@
     (stroke (width 0.1) (type default)) (layer "Dwgs.User") (tstamp a2867e22-1853-47b0-b858-b52ecd2623d2))
   (fp_rect (start -11 -2.3) (end 11 3.4)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 1377be13-0e3d-4abd-8555-0fa67d8f64c5))
-  (fp_rect (start -7.4 -3.9) (end 7.4 -2.3)
+  (fp_rect (start -7.4 -3.9) (end 7.4 -2.4)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 0b3e3322-bb32-4620-a0e4-060e2c7f4f56))
   (pad "" smd rect (at -7 -3.075) (size 0.7 1.6) (layers "F.Paste")
     (thermal_bridge_angle 45) (tstamp 8b80ea7b-01f0-4e2e-b85d-dd82caf21fea))

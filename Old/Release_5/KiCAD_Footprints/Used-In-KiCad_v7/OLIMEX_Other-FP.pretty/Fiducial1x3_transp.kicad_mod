@@ -1,0 +1,16 @@
+(footprint "Fiducial1x3_transp" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "Ref*" (at 0 3) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 98ad6c63-58bf-425d-9d1a-a5279d031705)
+  )
+  (fp_text value "Val**" (at 0 -3) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 161793e0-38a4-46f6-8705-588d8cd1faa3)
+  )
+  (fp_circle (center 0 0) (end 1.5 0)
+    (stroke (width 0.254) (type solid)) (fill none) (layer "Dwgs.User") (tstamp aaeadad0-3a3d-4075-8097-4c755334b44f))
+  (pad "Fid1" connect circle (at 0 0) (size 1 1) (property pad_prop_fiducial_glob) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 1) (clearance 1.016) (zone_connect 0) (tstamp e4bdd9e0-7aa7-4977-82dc-058064cde987))
+)

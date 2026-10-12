@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DB9_BMR(MALE)
+D CD61 Series 8.10mm Footprint Right Angle DIP Solder D-Sub
+K D-SUB CONNECTORS
+F https://store.comet.bg/download-file.php?id=1223
+$ENDCMP
+#
+#End Doc Library

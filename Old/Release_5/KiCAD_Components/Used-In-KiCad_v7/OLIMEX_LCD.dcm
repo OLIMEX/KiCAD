@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LCD-3.5in_DISP_TFT-3.5-CL35BC106-40A-320x480-ILI9488(FPV-WZA21-40-LF)
+D 3.5 inch TFT LCD
+K LCD
+F https://www.aliexpress.com/item/1005002580253001.html
+$ENDCMP
+#
+#End Doc Library

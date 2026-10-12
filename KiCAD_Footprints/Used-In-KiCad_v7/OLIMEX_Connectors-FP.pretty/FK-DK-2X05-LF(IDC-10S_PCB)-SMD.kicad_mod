@@ -47,7 +47,7 @@
     (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (clearance 0.0508) (tstamp cd68ccc2-b92a-4a35-a2ad-bc9f3654dcf5))
   (pad "10" smd rect (at 4.826 5.08) (size 3.556 1.524) (layers "B.Cu" "B.Mask")
     (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (clearance 0.0508) (tstamp a76b9748-328f-471d-9be1-f4b5647cd214))
-  (model ":KISYS3DMOD:IDC10S-PCB_CB94102V100.STEP"
+  (model "${KISYS3DMOD}/IDC10S-PCB_CB94102V100.STEP"
     (offset (xyz 26.75 -89.6 -0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 90))
